@@ -1,0 +1,56 @@
+body {
+	font-family: "Arial", sans-serif;
+	background-color: #f4f4f4;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
+}
+
+button {
+	padding: 0.625em 1.25em;
+	background-color: #0077b6;
+	color: white;
+	border: none;
+	border-radius: 0.3125em;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #005f73;
+}
+
+input {
+	padding: 0.625em;
+    margin: 0.5rem;
+	border: 1px solid #ddd;
+	border-radius: 0.25em;
+    align-items: center;
+}
+
+#image_container img {
+    width: 100%;
+    max-width: 50rem;
+    margin: 1rem;
+}
+
+#image_container p, h1 {
+    text-align: center;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+    width:100vw;
+    background-color: darkgoldenrod;
+
+}
+
+.date_selection {
+    align-items: center;
+    text-align: center;
+}
