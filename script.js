@@ -39,14 +39,12 @@ async function fetchImagesByDate(selectedDate) {
         imageObject.innerHTML = `<p role="alert">Failed to load images: ${error.message}</p>`;
     }
 }
-
 // Function that creates a paragraph element for each photo
 function createInfoElement({camera, Sol}) {
     const infoElement = document.createElement("P");
     infoElement.innerHTML = `Taken by: ${camera} on Sol: ${Sol}`;
     return infoElement;
 }
-
 // Function that displays images
 function displayImages(imageUrl, selectedDate){
     const imageObject = document.getElementById("image_container");
@@ -100,4 +98,5 @@ function createTitle(date) {
     const titleElement = document.createElement("h1");
     titleElement.innerHTML = `Photos taken on ${date}`;
     return titleElement;
+
 }
